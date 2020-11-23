@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  bot:
+    build: .
+    image: dj-jimmy:latest
+    environment:
+      BOT_TOKEN: <telegram bot token>
+      WEATHER_TOKEN: <token from openweathermap.org>
